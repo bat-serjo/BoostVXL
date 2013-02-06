@@ -1,0 +1,52 @@
+Trying:
+    from extending import *
+Expecting nothing
+ok
+Trying:
+    hi = hello('California')
+Expecting nothing
+ok
+Trying:
+    hi.greet()
+Expecting:
+    'Hello from California'
+ok
+Trying:
+    invite(hi)
+Expecting:
+    'Hello from California! Please come soon!'
+ok
+Trying:
+    hi.invite()
+Expecting:
+    'Hello from California! Please come soon!'
+ok
+Trying:
+    class wordy(hello):
+        def greet(self):
+            return hello.greet(self) + ', where the weather is fine'
+Expecting nothing
+ok
+Trying:
+    hi2 = wordy('Florida')
+Expecting nothing
+ok
+Trying:
+    hi2.greet()
+Expecting:
+    'Hello from Florida, where the weather is fine'
+ok
+Trying:
+    invite(hi2)
+Expecting:
+    'Hello from Florida! Please come soon!'
+ok
+1 items had no tests:
+    test_extending.run
+1 items passed all tests:
+   9 tests in test_extending
+9 tests in 2 items.
+9 passed and 0 failed.
+Test passed.
+ 
+EXIT STATUS: 0 

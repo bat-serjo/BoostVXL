@@ -1,0 +1,3 @@
+"embedding.cpp" -Fo"bin\msvc-7.1\debug\threading-multi\embedding.obj"   -TP /Z7 /Od /Ob0 /W3 /GR /MDd /Zc:forScope /Zc:wchar_t /GB /Op /wd4675 /EHs -c 
+"-ID:\boost_1_34_1" 
+"-Ic:\Python25\Include"

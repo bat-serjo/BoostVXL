@@ -1,0 +1,5 @@
+
+"bin\msvc-7.1\debug\embedding.obj" 
+"vxlapi.lib" 
+"D:\boost_1_39_0\bin.v2\libs\python\build\msvc-7.1\debug\boost_python-vc71-gd-1_39.lib"    
+"python25.lib"

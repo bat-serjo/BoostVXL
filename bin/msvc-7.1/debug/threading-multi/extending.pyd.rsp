@@ -1,0 +1,4 @@
+
+"bin\msvc-7.1\debug\threading-multi\extending.obj" 
+"..\..\..\..\bin.v2\libs\python\build\msvc-7.1\debug\threading-multi\boost_python-vc71-mt-gd-1_34_1.lib"    
+"python25.lib"
